@@ -1,4 +1,4 @@
-function [L, B]= PivotedCholesky(M, tol)
+function [L, B] = PivotedCholesky(M, tol)
 
 %% --------------------------- Pivoted Cholesky ---------------------------
 %
