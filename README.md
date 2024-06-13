@@ -21,5 +21,6 @@ The study has been completed with the support of the SNF Grant Scenarios, under 
 
 <img src="assets/img/SNF_logo.png" alt="drawing" width="250"/>
 
+**Usage**
 
-
+The directory [utils](utils) contains the implementation for the OMP and the covariance scenarios and their dependencies. The directory [tests](tests) includes the tests for the multivariate Gaussian mixture models, the data for which is generated as in [data](data/data.m), and that of the portfolio optimization problem with expected shortfall constraints.
