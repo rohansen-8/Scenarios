@@ -1,0 +1,2 @@
+# Scenarios
+Fast empirical scenarios
