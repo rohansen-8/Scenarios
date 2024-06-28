@@ -9,7 +9,7 @@
 // any warranty, see <https://github.com/muchip/FMCA> for further
 // information.
 //
-// This class is borrowd from muchip/SPQR
+// This class is borrowed from muchip/SPQR
 //
 #ifndef UTIL_MULTIINDEXSET_H_
 #define UTIL_MULTIINDEXSET_H_

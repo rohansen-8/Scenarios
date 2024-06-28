@@ -3,9 +3,9 @@
 #include <string>
 #include <vector>
 
-#include "MultiIndexSet.h"
-#include "matrix.h"
 #include "mex.h"
+#include "matrix.h"
+#include "MultiIndexSet.h"
 
 /** nlhs Number of expected output mxArrays
  *   plhs Array of pointers to the expected output mxArrays
@@ -15,12 +15,13 @@
  *        Changing the data in these read-only mxArrays can
  *        produce undesired side effects.
  */
+
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) {
 
   const unsigned int dim = std::round(*(mxGetPr(prhs[0])));
   const unsigned int q = std::round(*(mxGetPr(prhs[1])));
 
-  MultiIndexSet<std::vector<int>, TensorProduct> Xset;
+  MultiIndexSet<std::vector<int>> Xset;
 
   Xset.init(dim, q);
 

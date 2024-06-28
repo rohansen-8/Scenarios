@@ -1,4 +1,4 @@
-function [L, B, ind] = OMP(Q, h)
+function [L, B, ind] = OMP(Q, h, max_iter)
 
 %% -------------------------------- OMP -----------------------------------
 %
@@ -10,7 +10,6 @@ function [L, B, ind] = OMP(Q, h)
 
 %% initialization
 N = size(Q, 1) ;
-max_iter = 250 ;
 tol = 1e-6 ;
 err = 1 ;
 tol = tol * err ;
