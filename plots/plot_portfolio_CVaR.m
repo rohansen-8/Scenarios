@@ -1,6 +1,6 @@
 %% ------------------------------------------------------------------------
 %
-% Plots for comparison of Mean Returns vs CVaR of losses 
+% Plot for comparison of Mean Returns vs CVaR of losses 
 %
 %% ------------------------------------------------------------------------
 
