@@ -15,7 +15,7 @@ and benchmarking against other algorithms in the literature with regard to the r
 
 and also a practical example of a non-smooth portfolio optimization problem (involving expected shortfall constraints). 
 
-<img src="assets/img/plot_CVaR.png" alt="drawing" height="600"/>
+<img src="assets/img/plot_CVaR.png" alt="drawing" height="400"/>
 
 The study has been completed with the support of the SNF Grant Scenarios, under the supervision of [Paul Schneider](https://sites.google.com/view/paul-schneider) and [Michael Multerer](https://muchip.github.io/).
 
