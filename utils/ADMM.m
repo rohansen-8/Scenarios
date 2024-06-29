@@ -1,7 +1,7 @@
 function [x] = ADMM(A,y)
 
 %% ---------------------------- ADMM --------------------------------------
-% Solves the following optimization  problem 
+%  Solves the following optimization  problem 
 %          min  (1/2) ||Ax - y||^2_2
 %           s.t. 1) POSITIVITY:  x >= 0
 %                2) ADD-TO-ONE:  sum(x) = 1
