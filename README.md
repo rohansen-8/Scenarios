@@ -1,5 +1,4 @@
-# Scenarios
-**Fast empirical scenarios**
+# Fast empirical scenarios**
 
 The repository contains the implementation of the Orthogonal Matching Pursuit (OMP) algorithm from the paper [Fast empirical scenarios](https://arxiv.org/abs/2307.03927). The algorithm can identify representative scenarios from the empirical moments of large samples of multi-dimensional data. These scenarios also serve to define observation-specific explanations, see [here](https://arxiv.org/abs/2404.08747) by constructing a discrete probability measure (with a relatively small support set) that can approximate the true underlying data-generating process. Tests include identifying these scenarios for the multivariate Gaussian mixture distribution,
 
